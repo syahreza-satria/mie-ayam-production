@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playpen+Sans:wght@100..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-google-sans: "Google Sans", sans-serif;
+  --font-playpen-sans: "Playpen Sans", cursive;
+}
+
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
+
+.faded-edges {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
